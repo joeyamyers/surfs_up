@@ -18,6 +18,15 @@ December:
 * December has a slightly higher standard deviation than June, which means that December experiences a larger variation in temperature than June.
 
 ## Summary
-Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
+After a brief analysis, I determined that Oahu does not experience a drastic change in temperature from June to December like most places around the world do. The average temperature drops about three degrees from June to December, and the most noticeable difference can be seen by the eight degree difference in minimum temperature. Based on the standard deviation of the temperature of each month, December experiences a larger temperature range than June does. Based on these findings, I believe that the surf and ice cream shop business can be sustainable year-round, but I would like to do further analysis to cement this belief.
 
-Two additional queries necessary before opening the surf and ice cream shop are to 
+I performed additional queries to find the precipitation data trends for both of these months. After analysis, I found that Oahu experiences more rain on average in December than June along with more variation in December precipitation. Additionally, the December maximum precipitation level was much higher than June's. These additional queries complicate this business decision for W. Avy as a surf and ice cream shop may not fair as well in December when it is raining more.
+
+
+June:
+
+![](Resources/june_prcp_summary.png)
+
+December:
+
+![](Resources/dec_prcp_summary.png)

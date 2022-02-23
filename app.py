@@ -58,7 +58,6 @@ def precipitation():
 def stations():
     results = session.query(Station.station).all()
     stations = list(np.ravel(results))
-    # to return our last as JSON set these equal
     return jsonify(stations=stations)
 
 # monthly temperature route
@@ -67,8 +66,8 @@ def stations():
 def temp_monthly():
     prev_year = dt.date(2017, 8, 23) - dt.timedelta(days=365)
     results = session.query(Measurement.tobs).\
-        filter(Measurement.station == 'USC00519281').\
-        filter(Measurement.date >= prev_year).all()
+      filter(Measurement.station == 'USC00519281').\
+      filter(Measurement.date >= prev_year).all()
     temps = list(np.ravel(results))
     return jsonify(temps=temps)
 
